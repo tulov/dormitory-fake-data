@@ -1,0 +1,95 @@
+{
+  "dormitories": [
+    {
+      "id": 1,
+      "address": "Булак 5а",
+      "version": 0
+    },
+    {
+      "id": 2,
+      "address": "Test",
+      "version": 0
+    }
+  ],
+  "rooms": [
+    {
+      "id": "1-1a",
+      "dormitory_id": 1,
+      "number": "1a",
+      "square": 44.4,
+      "floor": 1,
+      "version": 0
+    },
+    {
+      "id": "1-2",
+      "dormitory_id": 1,
+      "number": "2",
+      "square": 37.0,
+      "floor": 2,
+      "version": 0
+    },
+    {
+      "id": "2-1",
+      "dormitory_id": 2,
+      "number": "1",
+      "square": 37.0,
+      "floor": 2,
+      "version": 0
+    }
+  ],
+  "users": [
+    {
+      "id": "790101306487",
+      "fio": "Туловский Алексей Иванович",
+      "birthday": "1979-01-01",
+      "gender": "m",
+      "contacts": [
+        {
+          "id": 1,
+          "type": "phone",
+          "contact": "+77077487125",
+          "description": "home"
+        },
+        {
+          "id": 2,
+          "type": "email",
+          "contact": "tulov.alex@gmail.com",
+          "description": ""
+        },{
+          "id": 3,
+          "type": "address",
+          "contact": "Kaskelen, PKST Zvezda, Apricot st, 13",
+          "description": "home"
+        }
+      ]
+    }
+  ],
+  "possessions": [
+    {
+      "id": 1,
+      "name": "tv samsung",
+      "cost": 75000,
+      "photos": [
+        {
+          "id": "img",
+          "src": "https://fakeimg.pl/250x100/",
+          "title": "tv"
+        }
+      ],
+      "room_number": "1-1a",
+      "dormitory_id": 1
+    }
+  ],
+  "possession-photos": [
+    {
+      "id": 1,
+      "photos": [
+        {
+          "id": "img",
+          "src": "https://fakeimg.pl/250x100/",
+          "title": "tv"
+        }
+      ]
+    }
+  ]
+}
